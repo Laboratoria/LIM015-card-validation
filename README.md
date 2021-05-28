@@ -245,9 +245,9 @@ mínimo del 50% de _branches_ (ramas).
    condiciones, algo como [Atom](https://atom.io/) o
    [VSCode](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](../../topics/shell),
+   [UNIX Shell](https://github.com/Laboratoria/bootcamp/tree/main/topics/shell),
    que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](../../topics/scm/01-git)
+   interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/main/topics/scm/01-git)
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
