@@ -51,10 +51,10 @@ const validator = {
     if(creditCardNumber.substring(0,4) == 6011){
       return "Discover";
     }
+    else
+      return false;
   },
 };//4083952015263  --- 4213550062868921
 
 export default validator;
-
-
 
