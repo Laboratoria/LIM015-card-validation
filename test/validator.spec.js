@@ -11,16 +11,16 @@ describe('validator', () => {
       expect(typeof validator.isValid).toBe('function');
     });
 
-    it.skip('debería retornar true para "4083952015263"', () => {
-      // escribe aquí tu test
+    it('debería retornar true para "4083952015263"', () => {
+      expect(validator.isValid('4083952015263')).toBe(true)
     });
 
-    it.skip('debería retornar true para "79927398713"', () => {
-      // escribe aquí tu test
+    it('debería retornar true para "79927398713"', () => {
+      expect(validator.isValid('79927398713')).toBe(true)
     });
 
-    it.skip('debería retornar false para "1234567890"', () => {
-      // escribe aquí tu test
+    it('debería retornar false para "1234567890"', () => {
+      expect(validator.isValid('1234567890')).toBe(false)
     });
   });
 
@@ -29,16 +29,38 @@ describe('validator', () => {
       expect(typeof validator.maskify).toBe('function');
     });
 
-    it.skip('Debería retornar "############5616" para "4556364607935616"', () => {
-      // escribe aquí tu test
+    it('Debería retornar "############5616" para "4556364607935616"', () => {
+      expect( validator.maskify("4556364607935616")).toBe("############5616");
     });
 
-    it.skip('Debería retornar "1" para "1"', () => {
-      // escribe aquí tu test
+    it('Debería retornar "1" para "1"', () => {
+      expect(validator.maskify("1")).toBe("1");
     });
 
-    it.skip('Debería retornar "######orld" para "helloworld"', () => {
-      // escribe aquí tu test
+    it('Debería retornar "######orld" para "helloworld"', () => {
+      expect(validator.maskify("helloworld")).toBe("######orld");
     });
   });
+
+  describe('validator.getIssuer', ()=>{
+    it('debería ser una función', () => {
+      expect(typeof validator.getIssuer).toBe('function');
+    });
+    it('Debería retornar "American Express" para "3756364607935616"', () => {
+      expect( validator.getIssuer("3756364607935616")).toBe("American Express");
+    });
+    it('Debería retornar "JCB" para "3556364607935616"', () => {
+      expect( validator.getIssuer("3556364607935616")).toBe("JCB");
+    });
+    it('Debería retornar "Visa" para "4556364607935616"', () => {
+      expect( validator.getIssuer("4556364607935616")).toBe("Visa");
+    });
+    it('Debería retornar "MasterCard" para "5156364607935616"', () => {
+      expect( validator.getIssuer("5156364607935616")).toBe("MasterCard");
+    });
+    it('Debería retornar "Discover" para "6011364607935616"', () => {
+      expect( validator.getIssuer("6011364607935616")).toBe("Discover");
+    });
+
+  })
 });

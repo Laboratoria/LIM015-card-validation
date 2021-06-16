@@ -2,13 +2,85 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/99e095b5b2.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <div class="container">
+
+      <header class="header">
+            <div class="cardIcon">
+              <a href="#"><i class="fas fa-money-check"></i></a>
+            </div>
+            <h1 class="bankTitle">Banco</h1>
+            <div class="title">   
+              <img src="img/abc-brand.png" alt="" class="imgBrand">
+            </div>    
+      </header>
+
+      <main>
+
+        <div id="leftSlider" class="show">
+          <ul>
+            <li><img src="img/7.jpg" alt="" class="imgLeft"></li>
+            <li><img src="img/02.jpg" alt="" class="imgLeft"></li>
+            <li><img src="img/03.jpg" alt="" class="imgLeft"></li>
+            <li><img src="img/04.jpg" alt="" class="imgLeft"></li>
+          </ul>
+        </div>
+          <!-- RIGHT -->
+        <section id="right">
+            <p class="titleVerifica">Verifica si ha cadudado</p>
+          
+            <!--  NUMBER INPUT -->
+            <div class="form">
+              <label for="inputNombre">Nombre</label>
+              <input type="text"  maxlength="16" placeholder="Diana">
+              <label for="inputNombre">DNI</label>
+              <input type="text"  maxlength="8" placeholder="20035229">
+            </div>
+
+            <div id="validacion" class="form">
+              <label for="inputNumero">Número Tarjeta</label>
+              <input type="text" id="numberEntered" maxlength="16" placeholder="Enter 16 digits">
+              <div class="textAlert">
+                <p id="textAlert" class="hidden"></p>
+              </div>
+              <div class="designButtonVA">
+                <button id="btnValidate" class="button">Validar</button> <!-- boton que envia el numero  -->
+              </div>
+            </div>
+           
+        </section>
+
+        <div id="correct" class="show"> 
+          <div class="designBoxImg">
+            <img id="emoticon" class="designImg">
+            
+          </div>
+          <div class="ImgCards">
+            <img src="img/logo_banco/americanExpress.png" alt="" id="imgAmericanExpress" class="hiddenCard">
+            <img src="img/logo_banco/JCB_Card.png" alt="" id="imgJCB" class="hiddenCard">
+            <img src="img/logo_banco/visa.png" alt="" id="imgVisa" class="hiddenCard">
+            <img src="img/logo_banco/MasterCard_Logo.png" alt="" id="imgMasterCard" class="hiddenCard">
+            <img src="img/logo_banco/DiscoverCard.png" alt="" id="imgDiscover" class="hiddenCard">
+          </div>
+          <p id="michi"></p>  
+          <p id="cardVigente"></p>
+          <p id="cardNoVigente"></p>
+          <div class="designButtonVA">
+            <button id="btnRegresar" class="hidden"> REGRESAR</button>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>. Diana Huaripayta</p>
+      </footer>
+
+    </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
