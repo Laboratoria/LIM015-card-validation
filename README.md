@@ -55,6 +55,11 @@ El objetivo que se visualice un proyecto minimalista, que se practico para el us
 * Poner colores en los cuadros de input y al "boton enviar"
 * Icono en la pestaña
 
+
+
+***
+
+
 # Tarjeta de crédito válida
 
 ## Índice
