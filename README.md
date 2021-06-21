@@ -4,39 +4,46 @@
 
 ![Imagen del Proyecto final](./src/img/pagina.png)
 
-Investigación UX:
+### Investigación UX:
+
 #### Los usuarios de este proyecto son los clientes potenciales de cualquier producto o servicio en el e-commerce, que durante esta pandemia ha aumentado su porcentaje en un 50% en el año 2020 a diferencia del 2019, impulsado por el crecimiento del e-commerce retail (250%); Asimismo el objetivo es se realice la transaccion que realizan nuestros usuarios priorizando que su número de tarjeta sea válida aplicando el algoritmo de Luhn.
 Fuente:ecommercenews.pe
 
-#### El formulario presentado evita que exista iregularidades y/o estafas a la empresa con quiénes trabajamos y su practicidad  brinda facilidades para los clientes en el llenado de solo datos imprescidibles, siendo que el proceso de ágil.
+#### El formulario presentado evita que exista iregularidades y/o estafas a la empresa con quiénes trabajamos y su practicidad  brinda facilidades para los clientes en el llenado de solo datos imprescidibles, siendo que el proceso sea ágil.
 
 ![Boceto en papel](./src/img/boceto.png)
 
 Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
 ### Tu plan de acción - los Objetivos de Aprendizaje que vas a prioritizar.
+
 Empezar con el HTML, de acuerdo al boceto que realicé:
--Uso de inputs y de form (dentro los divs)
--label, indicando mes y año
+
+* Uso de inputs y de form (dentro los divs)
+* label, indicando mes y año
 
 Aprender conceptos de JS, e interpretarlos idoneamente
+
 Empezar con el algoritmo de Luhn y dividir las acciones es partes:
--Convertir el string de card Number a array
--revertir el array
--recorrer el array y solo modificar los pares
--validar elemento par con el index del array
--multiplico los pares x2
--si el resultado >=10 sumar los digitos
--sumar todos los elementos de array
--si la suma es divisible entre 10 la tarjeta es válida
--Uso del DOM
+
+* Convertir el string de card Number a array
+* Revertir el array
+* Recorrer el array y solo modificar los pares
+* Validar elemento par con el index del array
+* Multiplico los pares x2
+* Si el resultado >=10 sumar los digitos
+* Sumar todos los elementos de array
+* Si la suma es divisible entre 10 la tarjeta es válida
+* Uso del DOM
 
 CSS:
+
 El objetivo que se visualice un proyecto minimalista, que se practico para el usuario.
--Poner fondo de color a la web
--Acomoda el div en el centro de la pantalla
--Poner colores en los cuadros de input y al "boton enviar"
--Icono en la pestaña
+
+* Poner fondo de color a la web
+* Acomoda el div en el centro de la pantalla
+* Poner colores en los cuadros de input y al "boton enviar"
+* Icono en la pestaña
 
 # Tarjeta de crédito válida
 
