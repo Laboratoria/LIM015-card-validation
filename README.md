@@ -2,7 +2,11 @@
 
 #### Cuando el usuario realice una compra, debe rellenar el formulario para realizar el pago correspondiente, por ende debe como principal paso validar su tarjeta, el cvv y la fecha de expiración, con la finalidad que la compra se efectúe.
 
+***
+
 ![Imagen del Proyecto final](./src/img/pagina.png)
+ 
+***
 
 ### Investigación UX:
 
@@ -11,11 +15,15 @@ Fuente:ecommercenews.pe
 
 #### El formulario presentado evita que exista iregularidades y/o estafas a la empresa con quiénes trabajamos y su practicidad  brinda facilidades para los clientes en el llenado de solo datos imprescidibles, siendo que el proceso sea ágil.
 
+***
+
 ![Boceto en papel](./src/img/boceto.png)
+
+***
 
 Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
-### Tu plan de acción - los Objetivos de Aprendizaje que vas a prioritizar.
+### Plan de acción
 
 Empezar con el HTML, de acuerdo al boceto que realicé:
 
@@ -35,6 +43,8 @@ Empezar con el algoritmo de Luhn y dividir las acciones es partes:
 * Sumar todos los elementos de array
 * Si la suma es divisible entre 10 la tarjeta es válida
 * Uso del DOM
+* Objeto Vaidator, debe validar el número de tarjeta
+* En la función Maskify debe mostrar solo los últimos cuatro digitos
 
 CSS:
 
