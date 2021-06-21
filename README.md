@@ -1,21 +1,20 @@
 # Tarjeta de crédito válida
 
-##### Cuando el usuario realice una compra, debe rellenar el formulario para realizar el pago correspondiente, por ende debe como principal paso validar su tarjeta, el cvv y la fecha de expiración, con la finalidad que la compra se efectúe.
+#### Cuando el usuario realice una compra, debe rellenar el formulario para realizar el pago correspondiente, por ende debe como principal paso validar su tarjeta, el cvv y la fecha de expiración, con la finalidad que la compra se efectúe.
 
 ![Imagen del Proyecto final](./src/img/pagina.png)
 
 Investigación UX:
-Los usuarios de este proyecto son los clientes potenciales de cualquier producto o servicio en el e-commerce, que durante esta pandemia ha aumentado su porcentaje en un 50% en el año 2020 a diferencia del 2019, impulsado por el crecimiento del e-commerce retail (250%); Asimismo el objetivo es se realice la transaccion que realizan nuestros usuarios priorizando que su número de tarjeta sea válida aplicando el algoritmo de Luhn.
+#### Los usuarios de este proyecto son los clientes potenciales de cualquier producto o servicio en el e-commerce, que durante esta pandemia ha aumentado su porcentaje en un 50% en el año 2020 a diferencia del 2019, impulsado por el crecimiento del e-commerce retail (250%); Asimismo el objetivo es se realice la transaccion que realizan nuestros usuarios priorizando que su número de tarjeta sea válida aplicando el algoritmo de Luhn.
 Fuente:ecommercenews.pe
 
-El formulario presentado evita que exista iregularidades y/o estafas a la empresa con quiénes trabajamos y su practicidad  brinda facilidades para los clientes en el llenado de solo datos imprescidibles, siendo que el proceso de ágil.
-cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+#### El formulario presentado evita que exista iregularidades y/o estafas a la empresa con quiénes trabajamos y su practicidad  brinda facilidades para los clientes en el llenado de solo datos imprescidibles, siendo que el proceso de ágil.
 
 ![Boceto en papel](./src/img/boceto.png)
 
 Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
-Tu plan de acción - los Objetivos de Aprendizaje que vas a prioritizar.
+### Tu plan de acción - los Objetivos de Aprendizaje que vas a prioritizar.
 Empezar con el HTML, de acuerdo al boceto que realicé:
 -Uso de inputs y de form (dentro los divs)
 -label, indicando mes y año
