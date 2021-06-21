@@ -1,8 +1,6 @@
-Debe contener lo siguiente:
+# Tarjeta de crédito válida
 
-Tarjeta de crédito válida
-
-Cuando el usuario realice una compra, debe rellenar el formulario para realizar el pago correspondiente, por ende debe como principal paso validar su tarjeta, el cvv y la fecha de expiración, con la finalidad que la compra se efectúe.
+##### Cuando el usuario realice una compra, debe rellenar el formulario para realizar el pago correspondiente, por ende debe como principal paso validar su tarjeta, el cvv y la fecha de expiración, con la finalidad que la compra se efectúe.
 
 ![Imagen del Proyecto final](./src/img/pagina.png)
 
@@ -18,8 +16,28 @@ cómo el producto soluciona los problemas/necesidades de dichos usuarios.
 Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
 Tu plan de acción - los Objetivos de Aprendizaje que vas a prioritizar.
--Aprender conceptos de JS, e interpretarlos idoneamente
--
+Empezar con el HTML, de acuerdo al boceto que realicé:
+-Uso de inputs y de form (dentro los divs)
+-label, indicando mes y año
+
+Aprender conceptos de JS, e interpretarlos idoneamente
+Empezar con el algoritmo de Luhn y dividir las acciones es partes:
+-Convertir el string de card Number a array
+-revertir el array
+-recorrer el array y solo modificar los pares
+-validar elemento par con el index del array
+-multiplico los pares x2
+-si el resultado >=10 sumar los digitos
+-sumar todos los elementos de array
+-si la suma es divisible entre 10 la tarjeta es válida
+-Uso del DOM
+
+CSS:
+El objetivo que se visualice un proyecto minimalista, que se practico para el usuario.
+-Poner fondo de color a la web
+-Acomoda el div en el centro de la pantalla
+-Poner colores en los cuadros de input y al "boton enviar"
+-Icono en la pestaña
 
 # Tarjeta de crédito válida
 
