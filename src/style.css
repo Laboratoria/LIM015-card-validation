@@ -1,65 +1,72 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(#8a78d3,#fff) ;
+    background: linear-gradient(#8a78d3, #fff);
     padding: 7.85em;
-    color:#757474;
-    
-  }
-#titulo{
-    text-align: center;
-    color:#2e2b2b;
+    color: #757474;
 }
-.form-group{
+
+#titulo {
+    text-align: center;
+    color: #2e2b2b;
+}
+
+.form-group {
     margin-left: 5%;
 }
-#cardnumber{
+
+#cardnumber {
     margin-left: 9.7%;
 }
-#cvv{
-    margin-left: 15.5%;
+
+#cvv {
+    margin-left: 13%;
 }
-select{
+
+select {
     margin-left: 3%;
 }
-input{
-    background:#fff;
+
+input {
+    background: #fff;
     border: #ccc 1px solid;
     padding: 8px;
-    width:45%;
-    color:gray;
+    width: 45%;
+    color: gray;
     margin-left: 3%;
-    margin-top:10px;
+    margin-top: 10px;
     font-size: 1em;
-    border-radius:4px;
-  }
-#container{
-    background:#fff;
+    border-radius: 4px;
+}
+
+#container {
+    background: #fff;
     padding: 2em;
     width: 45%;
     margin-left: 24%;
     border-radius: 3%;
     box-shadow: -1px 15px 15px rgba(14, 40, 141, 0.4);
-    
-    }
-    
+}
+
 .mes {
     border: 1px solid #7f8584;
-        font-size: 15px;
-        height: 30px;
-        width: 23%;
-        padding: 5px 12px;
-        transition: .3s ease all;
-        border-radius: 5px;
+    font-size: 15px;
+    height: 30px;
+    width: 23%;
+    padding: 5px 12px;
+    transition: .3s ease all;
+    border-radius: 5px;
 }
+
 .año {
     border: 1px solid #7f8584;
-        font-size: 15px;
-        height: 30px;
-        width: 17%;
-        padding: 5px 12px;
-        transition: .3s ease all;
-        border-radius: 5px;
+    font-size: 15px;
+    height: 30px;
+    width: 20%;
+    padding: 5px 12px;
+    transition: .3s ease all;
+    border-radius: 5px;
 }
+
 .btn {
     justify-content: center;
     margin-left: 32%;
@@ -75,8 +82,8 @@ input{
     padding-top: 5px;
     outline: none!important;
     border: none;
-    }
-    input:focus {
-        outline: none!important;
-      }
-      
+}
+
+input:focus {
+    outline: none!important;
+}
