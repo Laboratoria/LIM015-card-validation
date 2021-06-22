@@ -1,6 +1,6 @@
 # Tarjeta de crédito válida
 
-#### Cuando el usuario realice una compra, debe rellenar el formulario para realizar el pago correspondiente, por ende debe como principal paso validar su tarjeta, el cvv y la fecha de expiración, con la finalidad que la compra se efectúe.
+#### Cuando el usuario realice una compra, debe rellenar el formulario para realizar el pago correspondiente, por ende debe como principal paso se debe validar su número de tarjeta, el cvv y la fecha de expiración, con la finalidad que la compra se efectúe.
 
 ***
 
@@ -10,10 +10,10 @@
 
 ### Investigación UX:
 
-#### Los usuarios de este proyecto son los clientes potenciales de cualquier producto o servicio en el e-commerce, que durante esta pandemia ha aumentado su porcentaje en un 50% en el año 2020 a diferencia del 2019, impulsado por el crecimiento del e-commerce retail (250%); Asimismo el objetivo es se realice la transaccion que realizan nuestros usuarios priorizando que su número de tarjeta sea válida aplicando el algoritmo de Luhn.
+#### Los usuarios de este proyecto son los clientes potenciales de cualquier producto o servicio en el e-commerce, que durante esta pandemia ha aumentado su porcentaje en un 50% en el año 2020 a diferencia del 2019, impulsado por el crecimiento del e-commerce retail (250%); Asimismo el objetivo es que se realice la transaccion que realizan nuestros usuarios priorizando que su número de tarjeta sea válida aplicando el algoritmo de Luhn.
 Fuente:ecommercenews.pe
 
-#### El formulario presentado evita que exista iregularidades y/o estafas a la empresa con quiénes trabajamos y su practicidad  brinda facilidades para los clientes en el llenado de solo datos imprescidibles, siendo que el proceso sea ágil.
+#### El formulario presentado evita que exista iregularidades y/o estafas a la empresa con quiénes trabajamos y su practicidad  brinda facilidades para los clientes en el llenado de solo datos imprescidibles, siendo que el proceso sea ágil y práctico.
 
 ***
 
