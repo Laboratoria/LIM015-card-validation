@@ -14,13 +14,13 @@
 
 Fuente:ecommercenews.pe
 
-#### El formulario presentado evita que exista iregularidades y/o estafas a la empresa con quiénes trabajamos y su practicidad  brinda facilidades para los clientes en el llenado de solo datos imprescidibles, siendo que el proceso sea ágil y práctico.
+#### El formulario presentado evita que exista iregularidades y/o estafas a la empresa con quiénes trabajamos y su practicidad  brinda facilidades para los clientes en el llenado de solo datos imprescidibles, siendo que el proceso sea ágil para el usuario.
 
-***
+**
 
 ![Boceto en papel](./src/img/boceto.png)
 
-***
+**
 
 Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
@@ -28,24 +28,27 @@ Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
 Empezar con el HTML, de acuerdo al boceto que realicé:
 
-* Uso de inputs y de form (dentro los divs)
-* label, indicando mes y año
+* Titulo de la pestaña e icono en el header.
+* En el body usar <form> para inciar con el formulario.
+* Título del formulario.
+* Uso de inputs (dentro los divs) y sus nombres donde indica que debe llenar
+* label, indicando mes y año (en el select).
+* Creación del botón "enviar" del formulario.
 
 Aprender conceptos de JS, e interpretarlos idoneamente
 
 Empezar con el algoritmo de Luhn y dividir las acciones es partes:
 
-* Convertir el string de card Number a array
-* Revertir el array
-* Recorrer el array y solo modificar los pares
-* Validar elemento par con el index del array
-* Multiplico los pares x2
-* Si el resultado >=10 sumar los digitos
-* Sumar todos los elementos de array
-* Si la suma es divisible entre 10 la tarjeta es válida
-* Uso del DOM
-* Objeto Vaidator, debe validar el número de tarjeta
-* En la función Maskify debe mostrar solo los últimos cuatro digitos
+* Convertir el string de card Number a array con el uso de slip.
+* Revertir el array con el método reverse.
+* Validar elemento par con el index del array.
+* Multiplico los pares x2.
+* Si el resultado >=10 sumar los dígitos.
+* Sumar todos los elementos de array.
+* Si la suma es divisible entre 10 la tarjeta es válida.
+* Uso del DOM: en getElementBy Id y el addEventListener.
+* Objeto Validator, debe validar el número de tarjeta aplicando el Algoritmo de Luhn.
+* En la función Maskify debe mostrar solo los últimos cuatro dígitos.
 
 CSS:
 
