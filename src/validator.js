@@ -1,11 +1,11 @@
 const validator = {
     isValid: function(crediCard) {
-        //vamos a invertir el array con el uso de split y reverse
+        //revertir el array con el uso de split y reverse
         let arreglo = crediCard.split('').reverse().map(Number); //Number convierte un string u otro valor a uno de tipo numérico
         //console.log(arreglo);
         //multiplicamos las posiciones pares x2
         arreglo = arreglo.map((num, i) => {
-            if (i % 2 == 1) { //multiplicamos la posicion i % 2  y nos devuleve la posicion par, *2
+            if (i % 2 == 1) { //multiplicamos la posicion i % 2  y nos devuleve la posicion par, *2 (en arreglo la posicion empieza desde 0)
                 return num * 2
             } else {
                 return num;

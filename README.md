@@ -12,15 +12,15 @@
 
 #### Los usuarios de este proyecto son los clientes potenciales de cualquier producto o servicio en el e-commerce, que durante esta pandemia ha aumentado su porcentaje en un 50% en el año 2020 a diferencia del 2019, impulsado por el crecimiento del e-commerce retail (250%); Asimismo el objetivo es que se realice la transaccion que realizan nuestros usuarios priorizando que su número de tarjeta sea válida aplicando el algoritmo de Luhn.
 
-Fuente:ecommercenews.pe
+Fuente: ecommercenews.pe
 
 #### El formulario presentado evita que exista iregularidades y/o estafas a la empresa con quiénes trabajamos y su practicidad  brinda facilidades para los clientes en el llenado de solo datos imprescidibles, siendo que el proceso sea ágil para el usuario.
 
-**
+***
 
 ![Boceto en papel](./src/img/boceto.png)
 
-**
+***
 
 Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
@@ -52,16 +52,23 @@ Empezar con el algoritmo de Luhn y dividir las acciones es partes:
 
 CSS:
 
-El objetivo que se visualice un proyecto minimalista, que se practico para el usuario.
+El objetivo que se visualice un proyecto minimalista.
 
-* Poner fondo de color a la web
-* Acomoda el div en el centro de la pantalla
-* Poner colores en los cuadros de input y al "boton enviar"
-* Icono en la pestaña
+* Poner fondo degradado de dos colores a la web.
+* Acomodar el container en el centro de la pantalla.
+* Seleccionar el tipo de letra y tamaño del formulario.
+* Poner colores en los cuadros de input y al "boton enviar".
+* Los bordes del formulario deben ser redondeados.
+* E formulario debe tener una sombra de tono suave que combine con el fondo.
+
 
 
 
 ***
+
+
+
+
 
 
 # Tarjeta de crédito válida
